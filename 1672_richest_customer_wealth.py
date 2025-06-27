@@ -27,7 +27,7 @@ class Solution(object):
         :rtype: int
         """
         max_wealth = 0
-#The term amount directly adds the lines in y asix
+#The term amount directly adds the lines in y asix 
         for amount in accounts:
             wealth = sum(amount)
             if wealth > max_wealth:
