@@ -4,6 +4,7 @@
 3 2 1
 7 8 1
 
+
             bank1   bank2   bank3
 customer1       1       2       3
 customer2       3       2       1
