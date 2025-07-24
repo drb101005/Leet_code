@@ -20,7 +20,7 @@ class Solution(object):
                 count = count + 1
             else:
                 count = 1 
-            max_count = max(max_count, count)
+            max_count = max(max_count, count) # This max picks the highest value out of count and max count
             i = i + 1
             j = j + 1
 
