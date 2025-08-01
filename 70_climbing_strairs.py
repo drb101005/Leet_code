@@ -19,11 +19,11 @@
 # 1. 1 step + 1 step + 1 step
 # 2. 1 step + 2 steps
 # 3. 2 steps + 1 step
- 
-class Solution(object):
+ class Solution(object):
     def climbStairs(self, n):
-        """
-        :type n: int
-        :rtype: int
-        """
+        a, b = 1, 1
+        for _ in range(n - 1):
+            a, b = b, a + b
+        return b
+
         
